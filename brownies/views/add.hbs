@@ -1,0 +1,14 @@
+<h1>Add Recipe</h1>
+<form action="/recipe" method="POST">
+  <label>Title</label>
+  <input type="text" name="title" value="" size="50"><br>
+  <label>Status</label>
+  <select class="status" name="status" width="50" >
+    <option value="public" selected>Public</option>
+    <option value="private" >Private</option>
+  </select><br>
+  <label>Recipe</label>
+  <textarea name="recipe" rows="8" cols="80"></textarea><br>
+  <center>
+  <input type="submit" name="submit" class="btn" value="Add">
+</form>

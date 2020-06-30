@@ -1,0 +1,18 @@
+<h3><strong>Edit recipe</strong></h3>
+<form class="" action="/recipe/{{recipes._id}}" method="POST">
+	<input type="hidden" name="_method" value="PUT">
+  <label >Title</label>
+  <input type="text" name="title" size="50" value="{{recipes.title}}"><br>
+  <label>Status</label>
+  <select id="status" name="status">
+  	{{#select recipes.status}}
+    <option value="public" selected>Public</option>
+    <option value="private">Private</option>
+		{{/select}}
+  </select><br>
+  <label>Your recipe</label><br>
+  <textarea name="recipe" rows="20" cols="80">{{{stripTags recipes.recipe}}}</textarea><br>
+	<center>
+<input type="submit" name="" class="btn" value="save">
+<a href="/index" class="btn" >Cancel</a>
+</form>

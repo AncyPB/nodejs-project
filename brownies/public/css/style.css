@@ -1,0 +1,23 @@
+body{
+  background-repeat: no-repeat;
+  background-image: url("/css/home.jpg");
+  background-size: cover;
+}
+p{
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 42px;
+}
+a{
+  color: black;
+  font-size: 32px;
+}
+.container{
+  margin-left: 500px;
+  margin-top: 200px;
+  text-align: center;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  opacity: 0.8;
+}

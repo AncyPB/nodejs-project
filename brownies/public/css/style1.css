@@ -1,0 +1,74 @@
+body{
+  background-repeat: no-repeat;
+  background-image: url("/css/index.jpg");
+  background-size: cover;
+}
+.container-fluid a{
+  font-size: 22px;
+  margin-left: 10px;
+  color: white;
+}
+a{
+  font-size: 22px;
+  color: white;
+}
+.navbar{
+  background-color: #e5989b;
+  text-align: center;
+    color: white;
+}
+td{
+  font-size: 22px;
+  text-align: center;
+  width: 200px;
+    color: white;
+}
+p{
+  font-size: 22px;
+}
+.heading{
+  font-size: 32px;
+}
+row{
+  text-align: center;
+}
+.col-md-3{
+  text-align: center;
+  height: 400px;
+  background-color: #e5989b;
+  border-left: white solid 8px;
+  opacity: 0.8;
+  font-style: italic;
+  font-weight: bold;
+    color: white;
+}
+.tbl-row{
+  background-color: #e5989b;
+  border-bottom:white solid 8px;
+    opacity: 0.8;
+    font-style: italic;
+    font-weight: bold;
+}
+.recipe{
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+  background-color: #e5989b;
+  opacity: 0.8;
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px;
+}
+label{
+  font-size: 22px;
+}
+.btn{
+  background-color: #b5838d;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.d{
+  color: black;
+}

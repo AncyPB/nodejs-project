@@ -1,0 +1,12 @@
+<h1>Recipes</h1>
+<div class="row">
+  {{#each recipes}}
+  <div class="col-md-3">
+    <p>{{title}}</p><br>
+    <p>{{formatDate createdAt 'MMMM Do YYYY, h:mm:ss a'}}</p>
+    <p>{{stripTags (truncat recipe  150)}}</p>
+    <p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {{user.displayName}}</p>
+    <a href="/recipe/{{_id}}" class="btn grey">Read more</a>
+  </div>
+  {{/each}}
+</div>
